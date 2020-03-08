@@ -1,34 +1,36 @@
 body {
-   background-image: url(background.gif);
-   margin: 0;
-   font-family: Comfortaa;
-   color: white;
+    margin: 0;
+    font-family: Indie Flower;
+    color: black;
+    background-color: #f4eed7;
 }
 
+.logo {
+    background-image: url(background.gif);
+}
 .comingsoon {
-   background: #000000de;
-   width: 100%;
-   height: 100%;
-   display: flex;
-   flex-flow: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
 }
 
 .comingsoon * {
-   margin: auto;
+    margin: auto;
 }
 
 .comingsoon img {
-   height: 250px;
-   margin-bottom: 0;
+    height: 250px;
+    margin-bottom: 0;
 }
 
 .comingsoon h1 {
-   margin-top: 30px;
-   margin-bottom: 10px;
-   font-weight: 300;
-   font-size: 44pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 44pt;
 }
 
 .comingsoon h2 {
-   margin-top: 0;
+    margin-top: 0;
 }
